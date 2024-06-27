@@ -1,0 +1,22 @@
+{
+    "type": "block_actions",
+    "user": {
+      "id": "U12345678"
+    },
+    "actions": [
+      {
+        "action_id": "select_answer",
+        "block_id": "answer_block",
+        "selected_options": [
+          {
+            "value": "2"
+          }
+        ]
+      },
+      {
+        "action_id": "submit_answer",
+        "value": "submit"
+      }
+    ],
+    "response_url": "http://54.235.50.223/slack/events"
+  }
